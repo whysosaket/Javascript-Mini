@@ -8,7 +8,7 @@ btn.addEventListener("click",function()
     let input4=document.getElementById("userinput4").value;
     if(input1 > Math.pow(input2,input3))
     {
-        result.innerHTML="Θ(n^"+Math.log(input1)+")";
+        result.innerHTML="Θ(n<sup>"+Math.log(input1)+"</sup>)";
     }
     else if((input1 === Math.pow(input2,input3)))
     {
